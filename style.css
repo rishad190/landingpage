@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+    font-family: 'Poppins', sans-serif;
+}
+.header img{
+    
+    width: 200px;
+    margin-left: 10px;
+}
+ul,ol{
+    list-style: none;
+    margin-right: 10px;
+}
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    font-size: 20px;
+}
+.header{
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul li{
+    float: left;
+    margin-top:40px;
+    
+}
+
+.slideimg{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/243/242/420/face-portrait-predator-puma-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 666px;
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 10px;
+}
+.gold{
+    color: deepskyblue;
+}
+.headerbottom{
+    background-color: cyan;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 5%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.about{
+    background-color: black;
+    text-align: center;
+    margin: 20px 10px;
+        
+}
+.about-us{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.about-us p{
+    margin: 20px;
+    
+}
